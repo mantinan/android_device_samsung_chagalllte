@@ -17,3 +17,18 @@ ro.ril.gprsclass=10
 ro.ril.hsxpa=1
 ro.sec.fle.encryption=true
 ro.secwvk=220
+
+# AptXHD
+ persist.bt.enableAptXHD=true
+ 
+# 8224 Freak Tweaks
+# -----------------
+
+lockscreen.rot_override = true
+net.tethering.noprovisioning=true
+ro.hdmi.enable=true
+ro.hdmi.mirror.enable=true
+ 
+# Fix Cast/Miracast
+persist.debug.wfd.enable=1
+persist.sys.wfd.virtual=0
