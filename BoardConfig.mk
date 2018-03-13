@@ -37,6 +37,7 @@ TARGET_OTA_ASSERT_DEVICE := chagalllte
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_deathly_chagalllte_defconfig
 BOARD_CUSTOM_BOOTIMG := true
+BOARD_KERNEL_CMDLINE := androidboot.selinux=permissive
 
 # Include path
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
