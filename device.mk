@@ -63,4 +63,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 $(call inherit-product, device/samsung/chagall-common/device-common.mk)
 
 # call the proprietary setup
-$(call inherit-product-if-exists, vendor/samsung/chagalllte/chagalllte-vendor.mk)
+$(call inherit-product, vendor/samsung/chagalllte/chagalllte-vendor.mk)
+
